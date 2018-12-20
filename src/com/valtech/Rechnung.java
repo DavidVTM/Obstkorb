@@ -8,7 +8,6 @@ public class Rechnung {
     public Firma firma;
     public ArrayList<Position> positionen;
     public ArrayList<Dienstleistung> dienstleistungen;
-    public Druckvorlage druckvorlage;
     public Date lieferDatum;
     public Date rechnungsDatum;
     public Bankdaten bankdaten;
