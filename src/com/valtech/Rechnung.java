@@ -4,13 +4,14 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class Rechnung {
-    private Kunde kunde;
-    private Firma firma;
-    private ArrayList<Position> positionen;
-    private ArrayList<Dienstleistung> dienstleistungen;
-    private Druckvorlage druckvorlage;
-    private Date lieferDatum;
-    private Date rechnungsDatum;
+    public Kunde kunde;
+    public Firma firma;
+    public ArrayList<Position> positionen;
+    public ArrayList<Dienstleistung> dienstleistungen;
+    public Druckvorlage druckvorlage;
+    public Date lieferDatum;
+    public Date rechnungsDatum;
+    public Bankdaten bankdaten;
 
     public Double berechneGesamtpreisEinerPosition(Position positionen){
         return null;

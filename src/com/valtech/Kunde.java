@@ -6,5 +6,5 @@ public class Kunde {
     public Adresse adresse;
     public String ansprechpartner;
     public String kundennummer;
-
+    public Zahlungsbedingung zahlungsbedingung;
 }
